@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: notenest
+    env: php
+    plan: free
+    region: singapore
+    buildCommand: ""
+    startCommand: ""
+    rootDir: .
+    buildFilter:
+      paths: 
+        - public/index.php
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:YWk2CtiwkDuXmaMC22sxG/cyLcSRRLuy9vqhIAmWeq4=
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://notenest.onrender.com
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/data/database.sqlite
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1
