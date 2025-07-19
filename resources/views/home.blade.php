@@ -17,7 +17,7 @@
     document.getElementById("mySidenav").style.width = "0";
   }
 </script>
-
+<x-layout/>
 </head>
 <body>
 @include('header')

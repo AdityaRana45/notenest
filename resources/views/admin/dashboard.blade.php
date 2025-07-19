@@ -3,6 +3,7 @@
 <head>
     <title>Admin Panel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile support -->
+    <x-layout/> 
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -94,7 +95,7 @@
     <div class="navbar">
         🌙 Admin Panel
     </div>
-
+<h2>Total Users Registered: {{ $total }}</h2>
     <div class="dashboard">
         <div class="quote">
             “It is not the man who has too little, but the man who craves more, that is poor.”<br>— Seneca

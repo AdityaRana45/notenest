@@ -1,6 +1,7 @@
   <h3> Because you are alive, everything is possible. - Thich Nhat Hanh </h3>
+
 <link rel="stylesheet" href="{{ asset('css/subjectbutton.css') }}"><div>
-  
+
 <x-subject-button label="AI" url="https://drive.google.com/file/d/109qgtZf2Np-KnGMNwFicJmvxgH0a0LfW/view?usp=drivesdk"/>
 <x-subject-button label="C-Language" url="https://drive.google.com/file/d/10QuWjMAuFAXPiWWbIQY93klfW3Z4pzif/view?usp=drivesdk" />
 <x-subject-button label="Cloud Computing" url="https://drive.google.com/file/d/10869gr-PM7NS044GctNgZRegkHkqdqCM/view?usp=drivesdk" />

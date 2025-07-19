@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use App\Models\User;
 use function PHPUnit\Framework\returnArgument;
 
 class AdminController extends Controller
@@ -17,7 +18,9 @@ class AdminController extends Controller
             session(['admin_logged_in'=>true]);
              session()->save(); 
 
-            return redirect('admin/dashboard');
+             $totaluser= User::count(); // aggrigate fn ka use
+            return view('admin.dashboard', ['total' => $totaluser]);
+
         }
         else{
             return redirect()->back()->with('error','Invalid credentials');

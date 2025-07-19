@@ -39,7 +39,7 @@ Route::view('adminlogin','admin.adminlogin');
 Route::post('admincheck',[AdminController::class,'admincheck']);
 
 Route::middleware('admin')->group(function () {
-    Route::view('admin/dashboard', 'admin.dashboard');
+    Route::get('admin/dashboard', [AdminController::class,'dashboard']);
     // Yahan contributor CRUD, analytics wagaira bhi daal sakta hai
 
 Route::view('contributorform','admin.contributor-form');

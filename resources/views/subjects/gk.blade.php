@@ -6,6 +6,5 @@
 
 
      <x-subject-button label="Sports" url="https://drive.google.com/file/d/107tMarUWK06lzh2YX_wilueUGR6o6neQ/view?usp=drivesdk"/>
-          <x-subject-button label="computer Q/A" url="https://drive.google.com/file/d/1-jmQOEAT7ImGyM-oMkfwRIuPalTMv6HY/view?usp=drivesdk"/>
-
- <x-subject-button label="science Q/A" url="https://drive.google.com/file/d/1-dUNI8axYv9KadCLmm_ai3nacMN8qYmz/view?usp=drivesdk"/>
+    <x-subject-button label="computer Q/A" url="https://drive.google.com/file/d/1-jmQOEAT7ImGyM-oMkfwRIuPalTMv6HY/view?usp=drivesdk"/>
+     <x-subject-button label="science Q/A" url="https://drive.google.com/file/d/1-dUNI8axYv9KadCLmm_ai3nacMN8qYmz/view?usp=drivesdk"/>
